@@ -1,0 +1,54 @@
+.table-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  250px 250px;
+    gap: 10px; /* Adjust the gap as needed */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+.reserved{
+    background-color: #333;
+}
+.free{
+    background-color: #929292;
+}
+
+.table {
+    position: relative;
+    width: 250px;
+    height: 120px;
+    background-color: brown;
+    border-radius: 10px;
+    margin: 10px; /* Add margin to create space for chairs */
+  }
+  .table2 {
+    position: relative;
+    width: 125px;
+    height: 120px;
+    background-color: brown;
+    border-radius: 10px;
+    margin: 10px; /* Add margin to create space for chairs */
+  }
+
+  .chair {
+    position: absolute;
+    width: 80px;
+    height: 55px;
+    border-radius: 10px;
+  }
+
+  .chair1, .chair2 { top: -20px; }
+  .chair1 { left: 20px; }
+  .chair2 { right: 20px; }
+
+  .chair3, .chair4 { bottom: -20px; }
+  .chair3 { left: 20px; }
+  .chair4 { right: 20px; }
+
+  .tsc{
+    display: flex;
+    justify-content: center;
+  }
