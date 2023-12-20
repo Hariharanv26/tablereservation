@@ -1,4 +1,5 @@
-from app import app 
+from flask import app
+from form import RegistrationForm,LoginForm
 
 from flask import render_template, make_response
 

@@ -1,16 +1,12 @@
-.main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 90vh; /* Set the height to full viewport height */
-
+.content-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
-
-.left {
-    background-color: #ececec; /* Add your desired background color */
-    padding: 30px; /* Add padding for spacing inside the section */
+.left{
+    margin-right: 110px;
 }
-
-.right {
-    background-color: #f0f0f0; /* Add your desired background color */
-    padding: 20px; /* Add padding for spacing inside the section */
+.live{
+    margin-left: 200px;
+    margin-top: 10px;
 }

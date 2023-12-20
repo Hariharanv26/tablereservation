@@ -1,0 +1,41 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+
+}
+
+.menu-card {
+    width: 300px;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dish {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.dish:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 0;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    color: #666;
+}

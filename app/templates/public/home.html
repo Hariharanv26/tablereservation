@@ -2,18 +2,34 @@
 {% block style%}    
 <link href="static/css/table.css" rel="stylesheet">
 <link href="static/css/home.css" rel="stylesheet">
+<link href="static/css/menu.css" rel="stylesheet">
+
 
 {%endblock%}
 {%block title%}home{%endblock%}
 
 {%block main%}
 
-<section class="main">
+    <h3 class="live">LIVE</h3>
+
+<section class="content-area">
     <section class="left">
-        {% include 'Components/tables.html'%}
+        {%include 'Components/tables.html'%}
     </section>
     <section class="right">
+        {%include 'Components/menu.html'%}
     </section>
 </section>
 
+    
+</section>
+{%endblock%}
+
+
+{%block script%}
+<script>
+
+    
+
+</script>
 {%endblock%}

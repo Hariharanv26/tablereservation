@@ -1,54 +1,85 @@
+.tables-section{
+  font-size: 6.5px;
+  display: grid;
+  grid-template-rows:repeat(3, 1fr);
+  grid-template-columns:repeat(3, 1fr);
+  padding: 30px;
+  padding-top: 40px;
+  width: 800px;
+  padding-top: 10px;
+
+}
+
 .table-area{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:  250px 250px;
-    gap: 10px; /* Adjust the gap as needed */
-    justify-content: center;
-    align-items: center;
-    /* height: 100vh; */
-    margin: 0;
+  border: solid 1px rgb(74, 60, 0);
+  padding: 10px;
+}
+.table {
+    position: relative;
+    height: 12em;
+    background-color: rgb(153, 38, 38);
+    border-radius: 1em;
+    margin: 1em; 
+}
+.s4{
+  width: 25em;
+}
+
+.s2{
+  width: 12.5em;
+}
+
+.s6{
+  width: 37.5em;
 }
 
 .reserved{
-    background-color: #333;
+  background-color:#333;
 }
 .free{
-    background-color: #929292;
+  background-color: rgb(174, 174, 174);
+}
+.chair {
+  position: absolute;
+  display: inline-block;
+  width: 7em;
+  height: 5.5em;
+  border-radius: 1em;
 }
 
-.table {
-    position: relative;
-    width: 250px;
-    height: 120px;
-    background-color: brown;
-    border-radius: 10px;
-    margin: 10px; /* Add margin to create space for chairs */
-  }
-  .table2 {
-    position: relative;
-    width: 125px;
-    height: 120px;
-    background-color: brown;
-    border-radius: 10px;
-    margin: 10px; /* Add margin to create space for chairs */
-  }
+.c1{
+  left: 2.5em;
+  top: -2em;
+}
 
-  .chair {
-    position: absolute;
-    width: 80px;
-    height: 55px;
-    border-radius: 10px;
-  }
+.c2{
+  left:  2.5em;
+  bottom: -2em;
+}
 
-  .chair1, .chair2 { top: -20px; }
-  .chair1 { left: 20px; }
-  .chair2 { right: 20px; }
+.c3{
+  right: 2.5em;
+  top: -2em;
+}
 
-  .chair3, .chair4 { bottom: -20px; }
-  .chair3 { left: 20px; }
-  .chair4 { right: 20px; }
+.c4{
+  right: 2.5em;
+  bottom: -2em;
+}
 
-  .tsc{
-    display: flex;
-    justify-content: center;
-  }
+.c5{
+  right: 15em;
+  top: -2em;
+}
+
+.c6{
+  right: 15em;
+  bottom: -2em;
+}
+
+.table-area{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 10px 40px 10px;
+
+}
