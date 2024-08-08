@@ -1,0 +1,21 @@
+{% extends 'public/base/base.html' %}
+{% block title %}User Notifications: {% endblock %}
+
+{% block main %}
+    <div class="container mt-4">
+        <div class="notification-box">
+            <h3>User Notifications:</h3>
+            <ul>
+                {% for notification in user_notifications %}
+                    <h6>{{ notification }}</h6>
+                {% endfor %}
+            </ul>
+            {% if img %}
+                <br>
+                <h6>scan the Qr to pay</h6>
+                <br>
+                <img src="../../static/images/qrcode.jpg" alt="" style="width: 44.3vh;height: 44.3vh;">
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
